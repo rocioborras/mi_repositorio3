@@ -25,12 +25,13 @@
   .error__texto {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
+    bottom: 90%;
     transform: translate(-50%, -50%);
     color: black; }
   
-  .h2__texto {
+  .h1__texto {
     font-size: 6rem;
     text-align: center;
     color: grey;
