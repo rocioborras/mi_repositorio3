@@ -1,0 +1,128 @@
+@import "colores.scss";
+@import "tipografia.scss";
+@import "estructura.scss";
+@import "variables.scss";
+
+
+
+@media (max-width:768px){
+    .main__introFoto{
+        font-size: 12px;
+    }
+
+    .main__pieFoto{
+        font-size: 15px;
+    }
+
+    h2{
+       font-size: 16px;
+    }
+
+    h4{
+        font-size: 16px;
+     }
+
+     .sillon__ahora{
+         font-size: 16px;
+     }
+
+     .sillon__desde{
+        font-size: 14px;
+    }
+
+     .footer__suscribite input[type="submit"]{
+        padding: 5px 20px;
+        font-size: 10px;
+        margin-bottom: 5px;
+        width: 35%;
+                
+    }
+        
+    .footer__suscribite input[type="email"]{
+        width: 35%;     
+        font-size:12px;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__contacto p{
+        font-size: 12px;
+    }
+
+    .main__pieFotoPromos{
+        font-size: 15px;
+    }
+
+    #formulario__notaContacto{
+        font-size: 12px;
+    }
+
+    .footer__redesSociales{
+        display:none;
+ }
+    .p__texto {
+        font-size: 1rem;
+        padding-bottom: 1rem; 
+}
+}
+ 
+@media (max-width:1000px){
+    .sillon__ahora{ 
+       font-size: 12px;
+    }
+    
+    
+    .sillon__desde{ 
+        font-size:10px;
+    }
+}
+
+@media (max-width:420px){
+    .main__introFoto{
+        font-size: 10px;
+    }
+
+    .main__pieFoto{
+        font-size: 12px;
+    }
+
+    h2{
+       font-size: 12px;
+    }
+
+    h4{
+        font-size: 8px;
+     }
+
+    .sillon__ahora{ 
+        font-size: 15px;
+     }
+     
+     
+    .sillon__desde{ 
+         font-size:13px;
+     }
+     
+ 
+    .main__pieFotoPromos{
+        font-size: 12px;
+    }
+
+    #formulario__notaContacto{
+        font-size: 10px;
+    }
+
+    .footer__contacto{
+        display:none;
+ }
+
+    .footer__suscribite{
+    display:none;
+}
+
+    .footer__redesSociales{
+    display:none;
+}
+
+}
