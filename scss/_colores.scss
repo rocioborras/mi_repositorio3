@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+
+.sillon__desde{ 
+    text-decoration: line-through;
+    font-size:18px;
+    color:$color-rojo;
+}
+
+.sillon__ahora{ 
+    text-decoration: underline;
+    font-size: 22px;
+    color:$color-negro;
+}
